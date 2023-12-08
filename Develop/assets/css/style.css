@@ -23,8 +23,8 @@ header h1 {
 header h1 .seo {
     color: #d9dcd6;
 }
-
-header div {
+/* navigation elements are being set on the top right corner*/
+nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,11 +32,11 @@ header div {
     font-size: 20px;
 }
 
-header div ul {
+header ul {
     list-style-type: none;
 }
 
-header div ul li {
+header ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -45,7 +45,7 @@ a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/* the font size for all the pargraphs is set*/
 p {
     font-size: 16px;
 }
@@ -75,7 +75,8 @@ main {
     margin-left: 20px;
 }
 
-section {
+/* the whole secondary section details are being set*/
+aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -86,17 +87,17 @@ section {
     background-color: #2589bd;
 }
 
-.benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-brand {
+.benefit-lead  {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
 .benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
 }
@@ -111,15 +112,9 @@ section {
     text-align: center;
 }
 
-.benefit-cost h3 {
-    margin-bottom: 10px;
+.benefit-brand h3 {
+    margin-bottom: 10px
     text-align: center;
-}
-
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
 }
 
 .benefit-brand img {
@@ -134,16 +129,14 @@ section {
     max-width: 150px;
 }
 
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
+.benefit-lead img {
+        display: block;
+        margin: 10px auto;
+        max-width: 150px;
 }
 
-.online-reputation-management {
+
+.search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -161,11 +154,16 @@ section {
     color: #ffffff;
 }
 
-.search-engine-optimization img {
-    max-height: 200px;
-}
+.online-reputation-management {
+        margin-bottom: 20px;
+        padding: 50px;
+        height: 300px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        background-color: #0072bb;
+        color: #ffffff;
+    }
 
-.online-reputation-management img {
+.search-engine-optimization img {
     max-height: 200px;
 }
 
@@ -173,12 +171,11 @@ section {
     max-height: 200px;
 }
 
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
+.online-reputation-management img {
+    max-height: 200px;
 }
 
-.online-reputation-management h2 {
+.search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
@@ -188,6 +185,11 @@ section {
     font-size: 36px;
 }
 
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/* the footer details are set including the padding, font-family, etc*/
 footer {
     padding: 30px;
     clear: both;
