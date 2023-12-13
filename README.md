@@ -7,5 +7,5 @@ In this particular project, the goal was to go in and clean up most of the code 
 Aldo Mendoza github: https://github.com/Aldomendoza56/Horiseon
 
 '''md
-![alt text](assets/images/screenshots.png)
+![alt text](images/screenshot.png.png)
 '''
